@@ -1,0 +1,131 @@
+﻿@page "/Curriculo-Martins"
+
+<style>
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: #f5f7fa;
+        color: #333;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .curriculo{
+        max-width: 700px;
+        background: #fff;
+        margin: 0 auto;
+        padding: 30px 40px;
+        box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+        border-radius: 8px;
+    }
+
+    header {
+        border-bottom: 2px solid black;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+        header img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid black;
+        }
+
+        header div {
+            flex: 1;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.2rem;
+            color: black;
+        }
+
+        header p {
+            font-weight: 600;
+            font-size: 1rem;
+            color: #555;
+            margin-top: 5px;
+        }
+
+    section {
+        margin-bottom: 25px;
+    }
+
+        section h2 {
+            font-size: 1.4rem;
+            color: black;
+            border-left: 4px solid black;
+            padding-left: 10px;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+    ul {
+        padding-left: 20px;
+        margin: 0;
+        list-style-type: disc;
+    }
+
+        ul li {
+            margin-bottom: 6px;
+            font-size: 1rem;
+        }
+
+    p {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+</style>
+
+<div class="curriculo">
+    <header>
+        <img src="walterchinjmciao.jfif" alt="chinchila martins" />
+
+        <div>
+            <h1>Felipe Martins Oliveira</h1>
+            <p>felipemartinsoliveira1977@gmail.com | (69) 99289-8182</p>
+        </div>
+    </header>
+
+    <section>
+        <p>Busco terminar o técnico e cursar direito</p>
+    </section>
+
+    <section>
+        <h2>Formação Acadêmica</h2>
+        <p>Ensino Fundamental Completo</p>
+        <p>Cursnando Técnico em Informática IFRO Campus Ji-Paraná (2025)</p>
+    </section>
+
+
+    <section>
+        <h2>Experiências</h2>
+        <ul>
+            <li>Experiência em banda musical</li>
+            <li>Toco guitarra</li>
+            <li>Banco de Dados</li>
+            <li>Ja toquei em palco aberto</li>
+            <li>Manutenção e montagem de computadores</li>
+            <li>Estágio em pet-shop</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Idiomas</h2>
+        <ul>
+            <li>Português: Nativo</li>
+            <li>Inglês: Avançado</li>
+        </ul>
+    </section>
+</div>
